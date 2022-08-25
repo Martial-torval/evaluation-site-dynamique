@@ -1,0 +1,44 @@
+* {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: #E215E5;
+}
+
+.responsiveMenu h1 span {
+    color: #E215E5;
+}
+
+.horizontalMessage {
+    margin: 0 auto;
+        white-space: nowrap;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+}
+
+.horizontalMessage span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: horizontalScroll 5s linear infinite;
+    color: #E215E5;
+}
+
+@keyframes horizontalScroll {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+
+
+
+

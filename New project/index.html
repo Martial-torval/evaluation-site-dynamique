@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="https://cdn.tailwindcss.com"></script>
+    <title>Tin_Dog</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+  </head>
+  <body>
+    <header class="flex items-center lg:justify-between sm:justify-end">
+      <div class="lg:flex sm:hidden lg:items-end md:items-end sm:items-center">
+        <img
+          src="https://i.gifer.com/VhdI.gif"
+          alt=""
+          class="w-auto h-14 mr-4"
+        />
+        <h1 class="lg:text-3xl md:text-2xl sm:text-1xl">Tin_dog</h1>
+      </div>
+
+      <nav class="lg:block sm:hidden">
+        <ul>
+          <a href="photo.html"
+            ><li class="lg:text-3xl md:text-2xl sm:text-1xl mr-4">
+              Explorer les profils <span class="text-3xl">&#8594;</span>
+            </li></a
+          >
+        </ul>
+      </nav>
+
+      <div
+        class="absolute top-5 right-5 space-y-2 lg:hidden sm:block cursor-pointer"
+        id="burger"
+      >
+        <div class="w-8 h-0.5 bg-neutral-50" id="line1"></div>
+        <div class="w-8 h-0.5 bg-neutral-50" id="line2"></div>
+        <div class="w-8 h-0.5 bg-neutral-50" id="line3"></div>
+      </div>
+
+      <nav class="responsive_menu min-h-screen bg-black hidden" id="mobileMenu">
+        <div class="flex items-center mb-5">
+          <img
+            src="https://i.gifer.com/VhdI.gif"
+            alt=""
+            class="w-auto h-10 mr-2 mb"
+          />
+          <h1 class="text-2xl">Tin_dog</h1>
+        </div>
+        <a href="photo.html">
+          <span class="text-1xl">Explorer les profils</span></a
+        >
+      </nav>
+    </header>
+
+    <main class="my-28">
+      <h2 class="text-center text-4xl mb-10">Profils les + visités</h2>
+
+      <section
+        class="grid lg:grid-rows-2 md:grid-rows-6 sm:grid-rows-6 grid-flow-col gap-4 justify-center w-full"
+      >
+        <article class="max-w-sm m-5 border-4 border-solid border-neutral-50">
+          <img
+            src="https://c0.lestechnophiles.com/www.madmoizelle.com/wp-content/uploads/2015/08/Journee-chien.gif"
+            alt="Alex"
+            class="w-auto h-96"
+          />
+          <h3 class="text-center my-2">Diva &#9829;</h3>
+        </article>
+
+        <article class="max-w-sm m-5 border-4 border-solid border-neutral-50">
+          <img
+            src="http://animalblog.a.n.pic.centerblog.net/rzdf9mbm.gif"
+            alt="Alex"
+            class="w-auto h-96"
+          />
+          <h3 class="text-center my-2">Princess &#9829;</h3>
+        </article>
+
+        <article class="max-w-sm m-5 border-4 border-solid border-neutral-50">
+          <img
+            src="http://image.blingee.com/images18/content/output/000/000/000/759/715156285_920640.gif"
+            alt="Alex"
+            class="w-auto h-96"
+          />
+          <h3 class="text-center my-2">Flash &#9829;</h3>
+        </article>
+
+        <article class="max-w-sm m-5 border-4 border-solid border-neutral-50">
+          <img
+            src="http://i.skyrock.net/4174/25444174/pics/1801471294_1.gif"
+            alt="Alex"
+            class="w-auto h-96"
+          />
+          <h3 class="text-center my-2">Snoopy &#9829;</h3>
+        </article>
+
+        <article class="max-w-sm m-5 border-4 border-solid border-neutral-50">
+          <img
+            src="http://image.blingee.com/images18/content/output/000/000/000/759/715144297_144741.gif"
+            alt="Alex"
+            class="w-auto h-96"
+          />
+          <h3 class="text-center my-2">Sam &#9829;</h3>
+        </article>
+
+        <article class="max-w-sm m-5 border-4 border-solid border-neutral-50">
+          <img
+            src="https://i.gifer.com/7hZN.gif"
+            alt="Alex"
+            class="w-auto h-96"
+          />
+          <h3 class="text-center my-2">Merlin &#9829;</h3>
+        </article>
+      </section>
+    </main>
+  </body>
+
+  <footer>
+    <p class="text-center">Copyright 2022</p>
+  </footer>
+  <script src="script/menu.js"></script>
+</html>
